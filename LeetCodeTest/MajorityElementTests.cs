@@ -14,12 +14,13 @@ namespace LeetCode.Tests
         public void MajorityTest()
         {
             //arrange
-            
-
+            MajorityElement mE = new MajorityElement();
+            int[] nums1 = [3, 2, 3];
+            int expected = 3;
             //act
-            
-
+            int attempt = mE.Majority(nums1);
             //assert
+            Assert.AreEqual(expected, attempt);
         }
     }
 }
