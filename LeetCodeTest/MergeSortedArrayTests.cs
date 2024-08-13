@@ -25,19 +25,6 @@ namespace LeetCode.Tests
             CollectionAssert.AreEqual(expected, nums1);
         }
         
-        //[TestMethod()]
-        //public void MergeTest2()
-        //{
-        //    //arrange
-        //    MergeSortedArray m = new MergeSortedArray();
-        //    //act
-        //    int[] nums1 = [1];
-        //    int[] nums2 = [0];
-        //    int[] expected = [1];
-        //    m.Merge(nums1, 1, nums2, 0);
-        //    //assert
-        //    CollectionAssert.AreEqual(expected, nums1);
-        //}
         [TestMethod()]
         public void MergeTest3()
         {
