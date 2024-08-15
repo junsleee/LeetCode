@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode
+namespace LeetCode.ArrayString
 {
     public class MajorityElement
     {
@@ -18,10 +18,12 @@ namespace LeetCode
                 if (nums[i] == majority)
                 {
                     count++;
-                } else
+                }
+                else
                 {
                     count--;
-                } if (count == 0)
+                }
+                if (count == 0)
                 {
                     majority = nums[i];
                     count = 1;
