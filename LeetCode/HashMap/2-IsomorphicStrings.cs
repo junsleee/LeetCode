@@ -16,7 +16,8 @@ namespace LeetCode.HashMap
             {
                 foreach (char d in t)
                 {
-                    dictionary1.Add()
+                    //dictionary1.Add();
+                    break;
                 }
             }
             return true;

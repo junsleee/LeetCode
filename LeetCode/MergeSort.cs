@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class MergeSort
     {
-        public int[] SortMerge(int[] input)
+        public int[] SortMerge(int[] input, int v)
         {
             if (input.Length == 1) return input;
             int mid = input.Length / 2;
@@ -16,10 +16,10 @@ namespace LeetCode
             int[] right = input[mid..];
 
             //base case: array is all sorted 
-            if ()
+            //if ()
 
             //recursion
-            return int[];
+            return SortMerge(input, v);
         }
     }
 }
