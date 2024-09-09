@@ -20,7 +20,7 @@ namespace LeetCode.TwoPointers.Tests
             int expected = 49;
             int actual = waterContainer.MaxArea(height);
 
-            Assert.AreEqual(49, actual);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
