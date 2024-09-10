@@ -30,7 +30,7 @@ namespace LeetCode.TwoPointers
                 }
             }
             return maxArea;
-            //some change
+            //some change attempt
         }
     }
 }
